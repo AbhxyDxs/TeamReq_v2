@@ -1,0 +1,22 @@
+{
+  "name": "request",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Diogo Carvalho",
+  "license": "MIT",
+  "private": true,
+  "packageManager": "yarn@1.22.19",
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint"
+  },
+  "workspaces": [
+    "request-app",
+    "request-docs"
+  ],
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "turbo": "^1.9.4"
+  }
+}
